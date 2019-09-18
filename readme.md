@@ -42,8 +42,6 @@ To use, simply reference the nuget package in each of your platform projects.
     UserDialogs.Init(this);
     OR UserDialogs.Init(() => provide your own top level activity provider)
     OR MvvmCross - UserDialogs.Init(() => Mvx.IoCProvider.Resolve<IMvxAndroidCurrentTopActivity>().Activity)
-    OR Xamarin.Forms - UserDialogs.Init(() => this);
-
 
 ## Powered By:
 
